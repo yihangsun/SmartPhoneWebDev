@@ -1,0 +1,6 @@
+framework module Pods_networkCalls {
+  umbrella header "Pods-networkCalls-umbrella.h"
+
+  export *
+  module * { export * }
+}
