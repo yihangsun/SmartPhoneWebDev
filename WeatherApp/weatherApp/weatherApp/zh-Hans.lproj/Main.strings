@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "Condition: --"; ObjectID = "JFq-F4-dvh"; */
+"JFq-F4-dvh.text" = "Condition: --";
+
+/* Class = "UILabel"; text = "Low: --"; ObjectID = "VJc-fC-b5Y"; */
+"VJc-fC-b5Y.text" = "Low: --";
+
+/* Class = "UILabel"; text = "High: --"; ObjectID = "aKL-hD-W1Z"; */
+"aKL-hD-W1Z.text" = "High: --";
+
+/* Class = "UILabel"; text = "Temp: --"; ObjectID = "cOw-cR-qom"; */
+"cOw-cR-qom.text" = "Temp: --";
+
+/* Class = "UILabel"; text = "City: -- "; ObjectID = "toU-IF-D6j"; */
+"toU-IF-D6j.text" = "City: -- ";
