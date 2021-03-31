@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="KGk-i7-Jjw" customClass="TableViewCell" customModule="covidApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Drh-E5-hOE">
+                        <rect key="frame" x="10" y="12" width="30" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="30" id="Gue-P0-0kG"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total: 24315300" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7TQ-X5-fNY">
+                        <rect key="frame" x="46.5" y="12" width="124.5" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="124.5" id="uG8-6p-dOm"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pos: 49981926" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z3i-ej-iV1">
+                        <rect key="frame" x="193" y="12" width="117" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="117" id="9xa-mW-uJf"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Drh-E5-hOE" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="7mN-R2-LuB"/>
+                    <constraint firstAttribute="trailing" secondItem="z3i-ej-iV1" secondAttribute="trailing" constant="10" id="AmK-kD-pDb"/>
+                    <constraint firstAttribute="bottom" secondItem="Drh-E5-hOE" secondAttribute="bottom" constant="11" id="Myp-iz-8qy"/>
+                    <constraint firstAttribute="bottom" secondItem="7TQ-X5-fNY" secondAttribute="bottom" constant="11" id="aT8-Cl-rYk"/>
+                    <constraint firstItem="7TQ-X5-fNY" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="12" id="l0f-Kx-tvE"/>
+                    <constraint firstItem="Drh-E5-hOE" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="12" id="qRX-SX-1SA"/>
+                    <constraint firstAttribute="bottom" secondItem="z3i-ej-iV1" secondAttribute="bottom" constant="11" id="tbE-Iu-bSZ"/>
+                    <constraint firstItem="z3i-ej-iV1" firstAttribute="leading" secondItem="7TQ-X5-fNY" secondAttribute="trailing" constant="22" id="vg8-JS-Zgb"/>
+                    <constraint firstItem="z3i-ej-iV1" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="12" id="z1s-aV-gA3"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="lblPos" destination="z3i-ej-iV1" id="XBE-DY-uph"/>
+                <outlet property="lblState" destination="Drh-E5-hOE" id="96g-V3-Bri"/>
+                <outlet property="lblTotal" destination="7TQ-X5-fNY" id="hPY-vp-lsS"/>
+            </connections>
+            <point key="canvasLocation" x="18.840579710144929" y="91.741071428571431"/>
+        </tableViewCell>
+        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Positive: 499819 " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="xh7-NC-2mb">
+            <rect key="frame" x="0.0" y="0.0" width="133" height="21"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+            <nil key="textColor"/>
+            <nil key="highlightedColor"/>
+            <point key="canvasLocation" x="56" y="136"/>
+        </label>
+    </objects>
+</document>
