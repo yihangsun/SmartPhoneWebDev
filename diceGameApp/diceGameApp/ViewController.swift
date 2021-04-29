@@ -8,7 +8,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     @IBOutlet weak var Dice1: UIImageView!
     @IBOutlet weak var Dice2: UIImageView!
     @IBOutlet weak var resultLabel: UILabel!

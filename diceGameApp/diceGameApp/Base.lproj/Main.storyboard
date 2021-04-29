@@ -34,7 +34,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="onh-Db-aPl" userLabel="Footer View">
-                                <rect key="frame" x="0.0" y="765" width="428" height="128"/>
+                                <rect key="frame" x="0.0" y="798" width="428" height="128"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="VoT-HG-RPh">
                                         <rect key="frame" x="126.66666666666669" y="21" width="175" height="86"/>
@@ -70,16 +70,16 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bpz-Yc-2Dn" userLabel="Body View">
-                                <rect key="frame" x="0.0" y="185" width="428" height="580"/>
+                                <rect key="frame" x="0.0" y="185" width="428" height="613"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Let's Begin!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o5j-5w-XHO">
-                                        <rect key="frame" x="158" y="543.66666666666663" width="112" height="26.333333333333371"/>
+                                        <rect key="frame" x="158" y="576.66666666666663" width="112" height="26.333333333333371"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                         <color key="textColor" systemColor="systemRedColor"/>
                                         <color key="highlightedColor" systemColor="systemRedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="33" translatesAutoresizingMaskIntoConstraints="NO" id="ypQ-HH-lCV">
-                                        <rect key="frame" x="98.666666666666686" y="241" width="231" height="98"/>
+                                        <rect key="frame" x="98.666666666666686" y="257.66666666666669" width="231" height="98"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Dice1" translatesAutoresizingMaskIntoConstraints="NO" id="CWN-6L-X3x" userLabel="Dice2">
                                                 <rect key="frame" x="0.0" y="0.0" width="99" height="98"/>
@@ -108,7 +108,6 @@
                             <constraint firstItem="KTQ-8w-HOC" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="CMo-yb-YtV"/>
                             <constraint firstItem="onh-Db-aPl" firstAttribute="top" secondItem="Bpz-Yc-2Dn" secondAttribute="bottom" id="D7P-fo-l59"/>
                             <constraint firstAttribute="trailing" secondItem="onh-Db-aPl" secondAttribute="trailing" id="Df4-aw-eRT"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Bpz-Yc-2Dn" secondAttribute="bottom" constant="127" id="Djh-4V-o4X"/>
                             <constraint firstAttribute="trailing" secondItem="KTQ-8w-HOC" secondAttribute="trailing" id="JmI-2a-lnB"/>
                             <constraint firstItem="KTQ-8w-HOC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="L3O-CN-i6z"/>
                             <constraint firstItem="Bpz-Yc-2Dn" firstAttribute="top" secondItem="KTQ-8w-HOC" secondAttribute="bottom" id="N5q-xj-sqa"/>
@@ -116,8 +115,6 @@
                             <constraint firstItem="KTQ-8w-HOC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Ono-Fh-Zmq"/>
                             <constraint firstAttribute="trailing" secondItem="Bpz-Yc-2Dn" secondAttribute="trailing" id="RFp-mG-6vc"/>
                             <constraint firstItem="onh-Db-aPl" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="TGh-es-Oga"/>
-                            <constraint firstItem="KTQ-8w-HOC" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Tb9-qq-Wq2"/>
-                            <constraint firstItem="KTQ-8w-HOC" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Tf4-FW-8sH"/>
                             <constraint firstItem="onh-Db-aPl" firstAttribute="top" secondItem="Bpz-Yc-2Dn" secondAttribute="bottom" id="d1g-mB-qPp"/>
                             <constraint firstAttribute="trailing" secondItem="KTQ-8w-HOC" secondAttribute="trailing" id="duh-Qb-T0D"/>
                             <constraint firstAttribute="trailing" secondItem="KTQ-8w-HOC" secondAttribute="trailing" id="fOb-sp-vCr"/>

@@ -23,12 +23,6 @@ class ViewController: UIViewController, CLLocationManagerDelegate, UITableViewDe
     
     @IBOutlet weak var tblWeeks: UITableView!
 
-    //asWeek
-//    let week = ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
-//    var weekHighTemps : [Int] = []
-//    var weekLowTemps : [Int] = []
-//    var dayIcons : [Int] = []
-//    var nightIcons : [Int] = []
     var weeksData : [ModelFiveDaysForecast] = []
     
     let locationManager = CLLocationManager()
@@ -45,7 +39,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate, UITableViewDe
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        getTempData(getTempURL())
+            getTempData(getTempURL())
     }
     
 
@@ -144,11 +138,6 @@ extension ViewController {
                         
                         let daysModel : ModelFiveDaysForecast = ModelFiveDaysForecast(day, high, low, dayIcon, nightIcon)
                         self.weeksData.append(daysModel)
-//                        self.weekHighTemps.append(forecast["Temperature"]["Maximum"]["Value"].intValue)
-//                        self.weekLowTemps.append(forecast["Temperature"]["Minimum"]["Value"].intValue)
-//                        self.dayIcons.append(forecast["Day"]["Icon"].intValue)
-//                        self.nightIcons.append(forecast["Night"]["Icon"].intValue)
-//                        print(self.weekHighTemps)
                     }
                 self.tblWeeks.reloadData()
             }

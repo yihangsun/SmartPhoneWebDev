@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>422948467178-d3jdg96ios5gmu5no1e0m9jaad2kihk1.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.422948467178-d3jdg96ios5gmu5no1e0m9jaad2kihk1</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCWOjrTXrKWg-S-j9IootoTqFzK0imKU6k</string>
+	<key>GCM_SENDER_ID</key>
+	<string>422948467178</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>edu.northeastern.ys95.SpotifyApp</string>
+	<key>PROJECT_ID</key>
+	<string>spotifyapp-45c1e</string>
+	<key>STORAGE_BUCKET</key>
+	<string>spotifyapp-45c1e.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:422948467178:ios:0919c0444d105fae420293</string>
+	<key>DATABASE_URL</key>
+	<string>https://spotifyapp-45c1e-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>
